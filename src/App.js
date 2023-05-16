@@ -10,15 +10,16 @@ class App extends React.Component
     {
       super();
       this.state={subject: "React with Redux Certification Training "}
+
     }
 
   render()
   {
     return  (
     <div>
-    <Header name="using functional component"/>
+    <Header name="using props with functional component"/>
     <h1> Welcome to {this.state.subject}</h1>
-    <Content/>
+    <Content name="using props with class component"/>
     </div>
     )
   }

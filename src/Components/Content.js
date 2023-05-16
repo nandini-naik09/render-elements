@@ -4,7 +4,7 @@ class Content extends React.Component{
 render()
 {
     return (
-        <h3>Footer using class component </h3>
+        <h3>Footer {this.props.name} </h3>
     )
 }
 }
