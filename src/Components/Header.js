@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-const Header=({name})=>{
+const Header=({title})=>{
  return (
     <div>
-      <h2>Header {name}</h2>
+      <h2>Header: {title} </h2>
       
     </div>
   )
