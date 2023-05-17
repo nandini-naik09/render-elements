@@ -13,7 +13,7 @@ class App extends React.Component
     }
 
 
-    
+
       changeText()
       {
         this.setState({
@@ -30,7 +30,7 @@ class App extends React.Component
     <div>
     <Header title="using props with functional component"/>
     <h1> Welcome to {this.state.subject}</h1>
-    <button onClick={(()=>{this.changeText()})}>Change the title </button> 
+    <button onClick={(()=>{this.changeText()})}>Change the title using states </button> 
     <Content name="using props with class component"/>
     </div>
     )
